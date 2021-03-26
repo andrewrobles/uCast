@@ -14,7 +14,7 @@ export default function Home() {
       <div class='input-group'>
         <input className='form-control' placeholder="Email address"/>
         <div class='input-group-append'>
-          <span class='input-group-text'>Submit</span>
+          <button className='input-group-text'>Submit</button>
         </div>
       </div>
      </div>
