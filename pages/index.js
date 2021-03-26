@@ -9,7 +9,15 @@ export default function Home() {
     <div className={styles.container}>
      <Image src='/uCast.png' width='64' height='68'/>
      <h1 className={styles.title}>uCast</h1>
+     <div class='form-group'>
      <p className={styles.description}>Provide an email to be notified when we launch</p>
+      <div class='input-group'>
+        <input className='form-control' placeholder="Email address"/>
+        <div class='input-group-append'>
+          <span class='input-group-text'>Submit</span>
+        </div>
+      </div>
+     </div>
     </div>
   )
 }
